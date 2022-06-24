@@ -1,0 +1,24 @@
+Êþº¾   = X  program/Game  java/lang/Object  java/io/Serializable serialVersionUID J 
+ConstantValue        gameID I status Ljava/lang/String; targetEq values [[Ljava/lang/String; 	lineCount timeElapsed <init> >(ILjava/lang/String;Ljava/lang/String;[[Ljava/lang/String;II)V Code
+     ()V	    
+	    	     	  "  	  $  
+	  &  
+ LineNumberTable LocalVariableTable this Lprogram/Game; ID time getID ()I 	getStatus ()Ljava/lang/String; 	setStatus (Ljava/lang/String;)V 	getValues ()[[Ljava/lang/String; 	setValues ([[Ljava/lang/String;)V getLineCount setLineCount (I)V getTargetEq getTime setTime elapsedTime toString @ java/lang/StringBuilder B ID:
+ ? D  2
+ ? F G H append (I)Ljava/lang/StringBuilder; J , Equation:
+ ? L G M -(Ljava/lang/String;)Ljava/lang/StringBuilder; O  ,LineCount: Q 	, Status: S  ,Time:
+ ? U > 0 
+SourceFile 	Game.java !          	    
+   
+                    
+     
+           ¨     &*· *µ *,µ *-µ *µ !*µ #*µ %±    '   "       	          %  (   H    & ) *     & + 
+    &      &      &      &  
+    & , 
+   - .     /     *´ ¬    '        (        ) *    / 0     /     *´ °    '        (        ) *    1 2     >     *+µ ±    '   
+    !  " (        ) *          3 4     /     *´ !°    '       % (        ) *    5 6     >     *+µ !±    '   
+    )  * (        ) *          7 .     /     *´ #¬    '       - (        ) *    8 9     >     *µ #±    '   
+    1  2 (        ) *       
+   : 0     /     *´ °    '       5 (        ) *    ; .     /     *´ %¬    '       9 (        ) *    < 9     >     *µ %±    '   
+    =  > (        ) *      = 
+   > 0     n     D» ?YA· C*´ ¶ EI¶ K*´ ¶ KN¶ K*´ #¶ EP¶ K*´ ¶ KR¶ K*´ %¶ E¶ T°    '       A (       D ) *    V    W
