@@ -1,1 +1,1 @@
-This directory contains .jar files needed for the project 
+This directory contains some .jar files needed for the project 
